@@ -8,6 +8,8 @@ function App() {
       <Person></Person>
       <Language name ="Sabbir" tech ="JavaScript"></Language>
       <Language name ="Sabbir" tech ="JavaScript"></Language>
+      <Eid salami="500" sname="Sabbir"></Eid>
+      <Cricket></Cricket>
       
     </>
   )
@@ -18,7 +20,24 @@ function Person() {
     <h1>FontEnd Developer</h1>
   )
 }
+const {name, runs} ={name: 'Tamim', runs: '6000'}
+ function Cricket(){
+  return(
+    <div className='run'>
+        <h2>Name: {name}</h2>
+        <h2>Run: {runs}</h2>
+    </div>
+  )
+ }
 
+ function Eid ({salami, sname}){
+  return(
+    <div className='run'>
+    <h2>Eid Salami: {salami}</h2>
+    <h3>Name: {sname}</h3>
+  </div>
+  )
+}
 function Language(Props){
   return(
     <div style={{
