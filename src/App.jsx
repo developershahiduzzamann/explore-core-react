@@ -1,16 +1,19 @@
 
 import './App.css'
+import Location from './Todo';
 
 function App() {
   return (
     <>
       <h1>Vit React</h1>
-      <Person></Person>
+      {/* <Person></Person>
       <Language name ="Sabbir" tech ="JavaScript"></Language>
       <Language name ="Sabbir" tech ="JavaScript"></Language>
       <Eid salami="500" sname="Sabbir"></Eid>
-      <Cricket></Cricket>
-      
+      <Cricket></Cricket> */}
+
+      {/* <ToDo learn ="React"></ToDo> */}
+      <Location current ="Dhaka"></Location>
     </>
   )
 }
