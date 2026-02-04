@@ -8,7 +8,8 @@ function App() {
     {id:1, name: 'Sabbir Khan', age:23},
     {id:2, name: 'Tabib Khan', age:24},
     {id:3, name: 'Topu Khan', age:25},
-    {id:4, name: 'Hamim Khan', age:26}
+    {id:4, name: 'Hamim Khan', age:26},
+    {id:5, name: 'Khalid Khan', age:27}
   ];
   return (
     <>
